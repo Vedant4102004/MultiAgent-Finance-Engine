@@ -1,0 +1,109 @@
+╔════════════════════════════════════════════════════════════════╗
+║     MULTI-AGENT FINANCE DEBATE ENGINE - WEB INTERFACE          ║
+╚════════════════════════════════════════════════════════════════╝
+
+🚀 TO RUN THE WEB APP:
+═════════════════════
+
+1. Open terminal in project directory
+
+2. Activate virtual environment:
+   source venv/bin/activate
+
+3. Run the web app:
+   streamlit run web_app.py
+
+4. Browser will open automatically at: http://localhost:8501
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 FEATURES:
+
+✅ Single Stock Analysis
+   - Real-time market data
+   - Latest news headlines
+   - AI investment recommendation
+   - Bull, Bear, Risk perspectives
+
+✅ Portfolio Analysis
+   - Multiple company comparison
+   - Portfolio weights calculation
+   - Sector diversity analysis
+   - Individual stock recommendations
+
+✅ Market Overview
+   - Preset portfolios (Tech, India, Mixed)
+   - Custom portfolio creation
+   - Comparative analysis
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎮 HOW TO USE:
+
+1. Select analysis type from sidebar
+2. Enter company name(s)
+3. Click "Analyze" button
+4. Wait for results (30-60 seconds first time, faster after)
+5. Review recommendations
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 EXAMPLE COMPANIES TO TRY:
+
+US Stocks:
+  - Apple
+  - Microsoft
+  - Google
+  - Amazon
+  - Tesla
+
+Indian Stocks:
+  - Reliance
+  - Tata
+  - Infosys
+  - HDFC
+  - ICICI
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚙️ CONFIGURATION:
+
+API Keys (.env):
+  - HF_MODEL_REPO: Hugging Face model
+  - HUGGINGFACEHUB_API_TOKEN: HF token
+  - FINNHUB_API_KEY: Finnhub API key
+
+Add new companies:
+  Edit: tools/data_fetcher.py (ticker_map)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ TROUBLESHOOTING:
+
+Q: App won't start?
+A: Run: source venv/bin/activate
+   Then: pip install streamlit
+
+Q: Slow first run?
+A: Normal - model loads on first run
+   Subsequent runs are faster
+
+Q: No data for company?
+A: Check ticker is correct in data_fetcher.py
+   Verify company is publicly listed
+
+Q: No news showing?
+A: Add FINNHUB_API_KEY to .env
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 FILES CREATED:
+  - web_app.py              (Streamlit interface)
+  - tools/portfolio_analyzer.py (Portfolio analysis)
+  - WEB_INTERFACE.md        (Detailed guide)
+  - RUN_INSTRUCTIONS.txt    (This file)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ ENJOY YOUR AI-POWERED INVESTMENT ANALYSIS! 📈
+
