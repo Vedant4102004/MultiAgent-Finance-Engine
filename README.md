@@ -595,19 +595,6 @@ MIT License - See LICENSE file for details
 - No guarantees of accuracy or completeness
 - Use at your own risk
 
-
-
-## 🎯 Roadmap
-
-- [ ] Real-time portfolio tracking
-- [ ] Historical recommendation tracking
-- [ ] Mobile app (React Native)
-- [ ] More AI models (GPT-4, Claude)
-- [ ] Backtesting framework
-- [ ] Email alerts
-- [ ] Community portfolios
-- [ ] API service
-
 ---
 
 ⭐ If this project helps you, please star it! 
