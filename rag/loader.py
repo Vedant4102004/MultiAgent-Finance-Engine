@@ -8,3 +8,4 @@ def load_docs(file_path: str):
 
     docs = loader.load()
     return docs
+    
