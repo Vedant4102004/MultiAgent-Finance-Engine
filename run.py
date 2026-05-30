@@ -35,7 +35,5 @@ def run(query):
     })
 
     return final
-
-
 if __name__ == "__main__":
     print(run("Should I invest in Reliance?"))
