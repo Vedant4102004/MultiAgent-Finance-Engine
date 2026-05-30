@@ -10,10 +10,8 @@ from tools.data_fetcher import format_market_data, format_news
 from tools.portfolio_analyzer import analyze_portfolio, calculate_portfolio_weights, get_portfolio_summary
 from langchain_core.runnables import RunnableParallel
 
-# Load environment variables
 load_dotenv()
 
-# Configure Streamlit
 st.set_page_config(
     page_title="💰 Finance Debate Engine",
     page_icon="📊",
