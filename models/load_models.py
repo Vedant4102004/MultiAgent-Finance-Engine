@@ -4,7 +4,6 @@ from langchain_huggingface import HuggingFaceEndpoint, ChatHuggingFace
 from langchain_core.messages import HumanMessage
 
 load_dotenv()
-
 def load_llm():
    
     llm = HuggingFaceEndpoint(
