@@ -1,7 +1,6 @@
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-
 def create_bull_agent(llm):
     prompt = ChatPromptTemplate.from_template("""
 You are a BUY-SIDE financial analyst.
